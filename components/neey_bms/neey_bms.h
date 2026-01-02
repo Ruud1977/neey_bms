@@ -1,4 +1,8 @@
+#pragma once
+
 #include "esphome.h"
+
+namespace neey_bms {
 
 class NeeyBms : public Component, public esphome::ble_client::BLEClientNode {
  public:
@@ -58,3 +62,5 @@ class NeeyBms : public Component, public esphome::ble_client::BLEClientNode {
  protected:
   esphome::ble_client::BLEClient *client_;
 };
+
+}  // namespace neey_bms
