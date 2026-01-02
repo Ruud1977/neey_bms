@@ -1,1 +1,1 @@
-# Required for ESPHome component discovery
+from . import neey_bms
