@@ -1,7 +1,7 @@
 {
   "domain": "neey_bms",
-  "name": "NEEY BMS BLE Client",
-  "version": "1.0.0",
+  "name": "NEEY BMS",
+  "version": "0.1.0",
   "documentation": "https://github.com/Ruud1977/neey_bms",
   "requirements": [],
   "dependencies": [],
